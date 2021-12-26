@@ -2,9 +2,14 @@
 
 body{
     font-family: 'Nunito', sans-serif;
+    margin: 10rem;
+}
+hr{
+    margin: 2rem 0rem;
 }
 :root{
     --primary-colour:rgb(59, 72, 146);
+    --dark-grey:rgb(145, 139, 139);
 }
 /* #--links--# */
 .link{
@@ -32,4 +37,53 @@ body{
 .list-item-inline{
     display:inline;
     padding: 0rem 1rem
+}
+
+.navigation{
+     background-color: var(--primary-colour);
+    padding:1rem;
+    color: white;
+    border-radius: 5%;
+}
+.navigation .nav-pills{
+text-align: right;
+}
+.navigation .nav_brand{
+    font-weight: bold;
+}
+.navigation .link{
+    color: white;
+}
+.navigation .nav_active{
+     font-weight: bold;
+}
+
+/* header */
+
+.hero{
+   padding: 2rem;
+}
+
+.hero .hero_image{
+    max-width: 350px;
+    display: block;
+   
+   margin:auto
+}
+.hero .hero-heading{
+    text-align: center;
+    color: var(--dark-grey);
+    margin: auto;
+    padding: 1rem;
+}
+
+.footer{
+    background-color: var(--primary-colour);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+.footer .link{
+    color: white;
 }
