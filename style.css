@@ -2,15 +2,18 @@
 
 body{
     font-family: 'Nunito', sans-serif;
-  
+  margin: 10rem;
+  margin-top: 0rem;
+  margin-bottom: 0 rem;
 }
 hr{
     margin: 2rem 0rem;
 }
 :root{
-    --primary-colour:rgb(154, 151, 186);
-    --dark-grey:rgb(145, 139, 139);
+    --primary-colour:rgb(0, 0, 0);
+    --dark-grey:rgb(107, 103, 103);
     --off-white:rgb(218, 216, 216);
+     --about-colour:rgb(169, 167, 187);
 }
 /* #--links--# */
 .link{
@@ -111,4 +114,8 @@ padding:2rem;
 }
 .ow{
     background-color: var(--off-white);
+}
+
+.sc{
+     background-color: var(--about-colour);
 }
