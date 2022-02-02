@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Nunito', sans-serif;
-  margin: 10rem;
+  margin:2rem;
   margin-top: 0rem;
   margin-bottom: 0 rem;
 }
@@ -11,9 +11,9 @@ hr{
 }
 :root{
     --primary-colour:rgb(0, 0, 0);
-    --dark-grey:rgb(107, 103, 103);
-    --off-white:rgb(218, 216, 216);
-     --about-colour:rgb(169, 167, 187);
+    --dark-grey:rgb(75, 48, 90);
+    --off-white:rgb(107, 93, 116);
+     --about-colour:rgb(46, 40, 112);
 }
 /* #--links--# */
 .link{
@@ -97,6 +97,7 @@ text-align: right;
     text-align: center;
     color: white;
     border-bottom-left-radius: 1rem;
+  margin-top: 10rem;
 }
 .footer .link{
     color: white;
@@ -105,8 +106,17 @@ text-align: right;
     font-weight: bold;
     font-size: large;
 }
+a.link:hover,
+a.link:active {
+    color: rgb(56, 56, 194);
+}
 .section{
 padding:2rem;
+}
+section:hover{
+   
+   font-size: 110%;
+   background-color: rgb(201, 201, 198);
 }
 .section h1{
     text-align: center;
